@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: seagreen;
+}
+.navbar{
+    display: flex;
+    /* background-color: #103640; */
+    background: linear-gradient(45deg, #078e61, #0b1558);
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-left{
+    /* align-content: left; */
+    display: flex;
+    margin: 0px; 
+    padding: 0px;
+
+
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    padding: 5px;
+    /* background-color: floralwhite; */
+    border: 1px;
+    border-radius: 5px;
+    background-color:whitesmoke;
+    position: relative;
+    left: 5px;
+    bottom: 5px;
+}
+
+.header{
+    /* border-radius: 50px; */
+    border: 2px solid black;
+}
+
+p{
+    align: center;
+    margin: 2px 3px 1px 0px;
+    padding: 10px 3px 0px 0px;;
+    color: rgb(60, 3, 70);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: cursive;
+    /* position: absolute; */
+    
+}
+.navbar-right{
+    align-content: center;
+    /* margin: 1px; */
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    /* left: 0px; */
+    right: 70px;
+}
+.topbutton{
+    padding: 5px;
+    margin: 5px;
+    /* border: solid 5px black; */
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #28a745;
+    border-color: #28a745;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 1rem;
+    position: relative;
+    left: 100%;
+    border: 3px solid transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.marque{
+    padding: 5px;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+    background-color: rgb(253, 0, 0);
+    border-radius: 3px;
+    /* background: linear-gradient(45deg, #078e61, #0b1558); */
+}
+
+.marque a{
+    text-decoration: none;
+    color: white;
+}
+
+.marque a:hover{
+    color: rgb(110, 110, 255);
+}
+
+.links{
+    margin: 200px;
+    background-color: rgb(46, 11, 11);
+    padding: 1px;
+    border-radius: 50px;
+}
+
+.links:hover{
+    background-color: rgb(31, 1, 31);
+}
+
+.links  img{
+    height: 20px;
+    width: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(211, 150, 36);
+    display: inline-flex;
+}
